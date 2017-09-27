@@ -1,0 +1,1489 @@
+[2017-07-19 06:18:07] production.ERROR: InvalidArgumentException: Command "cace" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    cache:table in F:\wamp64\www\lv\vendor\symfony\console\Application.php:529
+Stack trace:
+#0 F:\wamp64\www\lv\vendor\symfony\console\Application.php(197): Symfony\Component\Console\Application->find('cace')
+#1 F:\wamp64\www\lv\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 F:\wamp64\www\lv\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2017-07-19 06:18:14] production.ERROR: InvalidArgumentException: Command "cache:cleae" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    cache:table in F:\wamp64\www\lv\vendor\symfony\console\Application.php:529
+Stack trace:
+#0 F:\wamp64\www\lv\vendor\symfony\console\Application.php(197): Symfony\Component\Console\Application->find('cache:cleae')
+#1 F:\wamp64\www\lv\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 F:\wamp64\www\lv\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2017-07-19 06:20:35] production.ERROR: InvalidArgumentException: Command "servve" is not defined.
+
+Did you mean this?
+    serve in F:\wamp64\www\lv\vendor\symfony\console\Application.php:529
+Stack trace:
+#0 F:\wamp64\www\lv\vendor\symfony\console\Application.php(197): Symfony\Component\Console\Application->find('servve')
+#1 F:\wamp64\www\lv\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 F:\wamp64\www\lv\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2017-07-19 07:19:02] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Can't use method return value in write context' in D:\web2\hendar.com.cn\newhd\app\controllers\BannerController.php:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-07-19 07:19:09] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 07:19:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Can't use method return value in write context' in D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php:102
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-07-19 07:19:31] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Can't use method return value in write context' in D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php:102
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-07-19 07:20:19] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Can't use method return value in write context' in D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php:102
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-07-19 07:21:41] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 07:37:08] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Can't use method return value in write context' in D:\web2\hendar.com.cn\newhd\app\controllers\BannerController.php:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-07-19 07:37:14] production.ERROR: exception 'BadMethodCallException' with message 'Method [setAjaxResponse] does not exist.' in D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php:268
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php(126): Illuminate\Routing\Controller->__call('setAjaxResponse', Array)
+#1 D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php(126): AdminController->setAjaxResponse('succeed', 'succeed')
+#2 [internal function]: AdminController->upSeoInfo()
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3819): Illuminate\Routing\Controller->callAction('upSeoInfo', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3807): Illuminate\Routing\ControllerDispatcher->call(Object(AdminController), Object(Illuminate\Routing\Route), 'upSeoInfo')
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3012): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'AdminController', 'upSeoInfo')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3370): call_user_func_array(Object(Closure), Array)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3037): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2017-07-19 07:37:20] production.ERROR: exception 'BadMethodCallException' with message 'Method [setAjaxResponse] does not exist.' in D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php:268
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php(126): Illuminate\Routing\Controller->__call('setAjaxResponse', Array)
+#1 D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php(126): AdminController->setAjaxResponse('succeed', 'succeed')
+#2 [internal function]: AdminController->upSeoInfo()
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3819): Illuminate\Routing\Controller->callAction('upSeoInfo', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3807): Illuminate\Routing\ControllerDispatcher->call(Object(AdminController), Object(Illuminate\Routing\Route), 'upSeoInfo')
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3012): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'AdminController', 'upSeoInfo')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3370): call_user_func_array(Object(Closure), Array)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3037): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2017-07-19 07:37:53] production.ERROR: exception 'BadMethodCallException' with message 'Method [setAjaxResponse] does not exist.' in D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php:268
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php(130): Illuminate\Routing\Controller->__call('setAjaxResponse', Array)
+#1 D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php(130): AdminController->setAjaxResponse('failed', 'upSeoFailed01')
+#2 [internal function]: AdminController->upSeoInfo()
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3819): Illuminate\Routing\Controller->callAction('upSeoInfo', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3807): Illuminate\Routing\ControllerDispatcher->call(Object(AdminController), Object(Illuminate\Routing\Route), 'upSeoInfo')
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3012): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'AdminController', 'upSeoInfo')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3370): call_user_func_array(Object(Closure), Array)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3037): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2017-07-19 07:40:33] production.ERROR: exception 'BadMethodCallException' with message 'Method [setAjaxResponse] does not exist.' in D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php:268
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php(130): Illuminate\Routing\Controller->__call('setAjaxResponse', Array)
+#1 D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php(130): AdminController->setAjaxResponse('failed', 'upSeoFailed01')
+#2 [internal function]: AdminController->upSeoInfo()
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3819): Illuminate\Routing\Controller->callAction('upSeoInfo', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3807): Illuminate\Routing\ControllerDispatcher->call(Object(AdminController), Object(Illuminate\Routing\Route), 'upSeoInfo')
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3012): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'AdminController', 'upSeoInfo')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3370): call_user_func_array(Object(Closure), Array)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3037): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2017-07-19 07:40:44] production.ERROR: exception 'BadMethodCallException' with message 'Method [setAjaxResponse] does not exist.' in D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php:268
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php(126): Illuminate\Routing\Controller->__call('setAjaxResponse', Array)
+#1 D:\web2\hendar.com.cn\newhd\app\controllers\AdminController.php(126): AdminController->setAjaxResponse('succeed', 'succeed')
+#2 [internal function]: AdminController->upSeoInfo()
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3819): Illuminate\Routing\Controller->callAction('upSeoInfo', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3807): Illuminate\Routing\ControllerDispatcher->call(Object(AdminController), Object(Illuminate\Routing\Route), 'upSeoInfo')
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3012): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'AdminController', 'upSeoInfo')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3370): call_user_func_array(Object(Closure), Array)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3037): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2017-07-19 07:49:38] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Can't use method return value in write context' in D:\web2\hendar.com.cn\newhd\app\controllers\BannerController.php:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-07-19 07:51:52] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 07:52:09] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Util\ResizeImage' not found' in D:\web2\hendar.com.cn\newhd\app\controllers\ProductController.php:276
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-07-19 07:55:29] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 07:55:39] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 07:58:18] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 07:58:28] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:05] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:05] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:05] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:05] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:34] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:34] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:34] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:04:34] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:06:31] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:06:31] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:12:32] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:22:50] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:22:50] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:22:50] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:22:50] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:23:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:24:16] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:24:22] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:24:40] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:46:16] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:46:16] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:46:16] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:46:16] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:51:18] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:51:18] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:51:18] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:51:18] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:51:29] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:51:29] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:51:29] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 08:51:29] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 09:06:45] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 0' in D:\web2\hendar.com.cn\newhd\app\controllers\FrontController.php:263
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\app\controllers\FrontController.php(263): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', 'D:\\web2\\hendar....', 263, Array)
+#1 [internal function]: FrontController->news('zh')
+#2 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3819): Illuminate\Routing\Controller->callAction('news', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3807): Illuminate\Routing\ControllerDispatcher->call(Object(FrontController), Object(Illuminate\Routing\Route), 'news')
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3012): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'FrontController', 'news')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('zh')
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3370): call_user_func_array(Object(Closure), Array)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3037): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-19 09:06:58] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 0' in D:\web2\hendar.com.cn\newhd\app\controllers\FrontController.php:263
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\app\controllers\FrontController.php(263): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', 'D:\\web2\\hendar....', 263, Array)
+#1 [internal function]: FrontController->news('zh')
+#2 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3819): Illuminate\Routing\Controller->callAction('news', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3807): Illuminate\Routing\ControllerDispatcher->call(Object(FrontController), Object(Illuminate\Routing\Route), 'news')
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3012): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'FrontController', 'news')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('zh')
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3370): call_user_func_array(Object(Closure), Array)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3037): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-19 09:08:21] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 0' in D:\web2\hendar.com.cn\newhd\app\controllers\FrontController.php:263
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\app\controllers\FrontController.php(263): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', 'D:\\web2\\hendar....', 263, Array)
+#1 [internal function]: FrontController->news('zh')
+#2 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3819): Illuminate\Routing\Controller->callAction('news', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3807): Illuminate\Routing\ControllerDispatcher->call(Object(FrontController), Object(Illuminate\Routing\Route), 'news')
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3012): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'FrontController', 'news')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('zh')
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3370): call_user_func_array(Object(Closure), Array)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3037): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-19 09:08:22] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 0' in D:\web2\hendar.com.cn\newhd\app\controllers\FrontController.php:263
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\app\controllers\FrontController.php(263): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', 'D:\\web2\\hendar....', 263, Array)
+#1 [internal function]: FrontController->news('zh')
+#2 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3819): Illuminate\Routing\Controller->callAction('news', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3807): Illuminate\Routing\ControllerDispatcher->call(Object(FrontController), Object(Illuminate\Routing\Route), 'news')
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3012): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'FrontController', 'news')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('zh')
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3370): call_user_func_array(Object(Closure), Array)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3037): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-19 09:10:45] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 09:10:57] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 09:11:30] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 09:12:00] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 09:12:03] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 09:12:22] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-19 09:17:41] production.ERROR: exception 'ErrorException' with message 'Undefined offset: 0' in D:\web2\hendar.com.cn\newhd\app\controllers\FrontController.php:263
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\app\controllers\FrontController.php(263): Illuminate\Exception\Handler->handleError(8, 'Undefined offse...', 'D:\\web2\\hendar....', 263, Array)
+#1 [internal function]: FrontController->news('zh')
+#2 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3819): Illuminate\Routing\Controller->callAction('news', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3807): Illuminate\Routing\ControllerDispatcher->call(Object(FrontController), Object(Illuminate\Routing\Route), 'news')
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3012): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'FrontController', 'news')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('zh')
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3370): call_user_func_array(Object(Closure), Array)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3037): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-20 01:05:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-20 01:53:38] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-20 01:53:44] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-20 01:53:46] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-20 01:53:53] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-20 02:47:42] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-20 02:49:05] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-20 02:58:51] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-20 03:00:29] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-20 03:00:30] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3723
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-07-20 03:00:37] production.ERROR: exception 'InvalidArgumentException' with message 'Route [login] not defined.' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Support\helpers.php(717): Illuminate\Routing\UrlGenerator->route('login', Array, true, NULL)
+#1 D:\web2\hendar.com.cn\newhd\app\storage\views\b4ca027ec34233f9d5c4a4b074e937ad(8): route('login')
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7955): include('D:\\web2\\hendar....')
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#8 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#20 {main}
+
+Next exception 'ErrorException' with message 'Route [login] not defined. (View: D:\web2\hendar.com.cn\newhd\app\views\admin\login.blade.php)' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7957): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#6 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-20 03:00:41] production.ERROR: exception 'InvalidArgumentException' with message 'Route [login] not defined.' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Support\helpers.php(717): Illuminate\Routing\UrlGenerator->route('login', Array, true, NULL)
+#1 D:\web2\hendar.com.cn\newhd\app\storage\views\b4ca027ec34233f9d5c4a4b074e937ad(8): route('login')
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7955): include('D:\\web2\\hendar....')
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#8 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#20 {main}
+
+Next exception 'ErrorException' with message 'Route [login] not defined. (View: D:\web2\hendar.com.cn\newhd\app\views\admin\login.blade.php)' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7957): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#6 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-20 03:00:41] production.ERROR: exception 'InvalidArgumentException' with message 'Route [login] not defined.' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Support\helpers.php(717): Illuminate\Routing\UrlGenerator->route('login', Array, true, NULL)
+#1 D:\web2\hendar.com.cn\newhd\app\storage\views\b4ca027ec34233f9d5c4a4b074e937ad(8): route('login')
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7955): include('D:\\web2\\hendar....')
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#8 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#20 {main}
+
+Next exception 'ErrorException' with message 'Route [login] not defined. (View: D:\web2\hendar.com.cn\newhd\app\views\admin\login.blade.php)' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7957): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#6 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-20 03:00:42] production.ERROR: exception 'InvalidArgumentException' with message 'Route [login] not defined.' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Support\helpers.php(717): Illuminate\Routing\UrlGenerator->route('login', Array, true, NULL)
+#1 D:\web2\hendar.com.cn\newhd\app\storage\views\b4ca027ec34233f9d5c4a4b074e937ad(8): route('login')
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7955): include('D:\\web2\\hendar....')
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#8 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#20 {main}
+
+Next exception 'ErrorException' with message 'Route [login] not defined. (View: D:\web2\hendar.com.cn\newhd\app\views\admin\login.blade.php)' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7957): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#6 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-20 03:01:42] production.ERROR: exception 'InvalidArgumentException' with message 'Route [login] not defined.' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Support\helpers.php(717): Illuminate\Routing\UrlGenerator->route('login', Array, true, NULL)
+#1 D:\web2\hendar.com.cn\newhd\app\storage\views\b4ca027ec34233f9d5c4a4b074e937ad(8): route('login')
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7955): include('D:\\web2\\hendar....')
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#8 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#20 {main}
+
+Next exception 'ErrorException' with message 'Route [login] not defined. (View: D:\web2\hendar.com.cn\newhd\app\views\admin\login.blade.php)' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7957): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#6 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-20 03:02:25] production.ERROR: exception 'InvalidArgumentException' with message 'Route [login] not defined.' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Support\helpers.php(717): Illuminate\Routing\UrlGenerator->route('login', Array, true, NULL)
+#1 D:\web2\hendar.com.cn\newhd\app\storage\views\b4ca027ec34233f9d5c4a4b074e937ad(8): route('login')
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7955): include('D:\\web2\\hendar....')
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#8 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#20 {main}
+
+Next exception 'ErrorException' with message 'Route [login] not defined. (View: D:\web2\hendar.com.cn\newhd\app\views\admin\login.blade.php)' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7957): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#6 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-20 03:02:25] production.ERROR: exception 'InvalidArgumentException' with message 'Route [login] not defined.' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Support\helpers.php(717): Illuminate\Routing\UrlGenerator->route('login', Array, true, NULL)
+#1 D:\web2\hendar.com.cn\newhd\app\storage\views\b4ca027ec34233f9d5c4a4b074e937ad(8): route('login')
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7955): include('D:\\web2\\hendar....')
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#8 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#20 {main}
+
+Next exception 'ErrorException' with message 'Route [login] not defined. (View: D:\web2\hendar.com.cn\newhd\app\views\admin\login.blade.php)' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7957): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#6 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-20 03:02:58] production.ERROR: exception 'InvalidArgumentException' with message 'Route [login] not defined.' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Support\helpers.php(717): Illuminate\Routing\UrlGenerator->route('login', Array, true, NULL)
+#1 D:\web2\hendar.com.cn\newhd\app\storage\views\b4ca027ec34233f9d5c4a4b074e937ad(8): route('login')
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7955): include('D:\\web2\\hendar....')
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#8 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#20 {main}
+
+Next exception 'ErrorException' with message 'Route [login] not defined. (View: D:\web2\hendar.com.cn\newhd\app\views\admin\login.blade.php)' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7957): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#6 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2017-07-20 03:03:12] production.ERROR: exception 'InvalidArgumentException' with message 'Route [login] not defined.' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\Support\helpers.php(717): Illuminate\Routing\UrlGenerator->route('login', Array, true, NULL)
+#1 D:\web2\hendar.com.cn\newhd\app\storage\views\b4ca027ec34233f9d5c4a4b074e937ad(8): route('login')
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7955): include('D:\\web2\\hendar....')
+#3 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#6 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#8 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#20 {main}
+
+Next exception 'ErrorException' with message 'Route [login] not defined. (View: D:\web2\hendar.com.cn\newhd\app\views\admin\login.blade.php)' in D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php:3961
+Stack trace:
+#0 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7957): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 D:\web2\hendar.com.cn\newhd\vendor\laravel\framework\src\Illuminate\View\Engines\CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('D:\\web2\\hendar....', Array)
+#2 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7833): Illuminate\View\Engines\CompilerEngine->get('D:\\web2\\hendar....', Array)
+#3 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7820): Illuminate\View\View->getContents()
+#4 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(7807): Illuminate\View\View->renderContents()
+#5 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8003): Illuminate\View\View->render()
+#6 D:\web2\hendar.com.cn\newhd\vendor\symfony\http-foundation\Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3230): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3039): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 D:\web2\hendar.com.cn\newhd\bootstrap\compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 D:\web2\hendar.com.cn\newhd\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
